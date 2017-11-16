@@ -222,7 +222,7 @@ TrezorConnect.signTx(inputs, outputs, function (result) {
 ## Sign Ethereum transaction
 
 ```javascript
-TrezorConnect.ethereumSignTx(
+TrezorConnect.signEthereumTx(
   address_n, // address path - either array or string, see example
   nonce,     // nonce - hexadecimal string
   gas_price, // gas price - hexadecimal string
